@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='myapp',
-    version='0.2',
-    py_modules=['myapp'],
+    name='myapp2',
+    version='0.1',
+    py_modules=['myapp2'],
     entry_points={
-        'console_scripts': ['myapp = myapp:run']
+        'console_scripts': ['myapp2 = myapp2:run']
     },
 )
